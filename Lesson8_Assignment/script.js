@@ -7,9 +7,7 @@
 * Time: 09:13 PM
 * To change this template use Tools | Templates.
 */
-define(function() {
-return {};
-});
+
 
 function display(event){
    
@@ -17,5 +15,27 @@ function display(event){
   
 }//end of display($()
 
+/*
  $("h3").click(display);
+*/
 
+function display2(event) {
+  
+  $(event.currentTarget).next().animate( { height: 'toggle'}, "slow");
+  
+}
+
+/*
+$("h3").click(display2);
+*/
+
+$("h3").hover(function(){
+      
+      $(this).css("background-color", "yellow");
+      }, function(){
+      $(this).css("background-color", "pink");
+});
+
+
+$("h3").hover(display2);
+  
