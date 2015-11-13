@@ -4,3 +4,7 @@ Author:
 Date:  
 
 ********************************************************************************
+
+Within the extraScript.js I made several changes:
+    1. the Rows highlight to Blue when selected and are highlighted green when          they aren't selected
+    2. 
