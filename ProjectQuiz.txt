@@ -11,7 +11,7 @@ Answer the following questions for Lesson 7 Assignment
 ++++++++++++
 Question #1:  (5 points)
 ++++++++++++
-Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
+why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
 You should ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code becasue that script that links the jQuery library will be overridden by the previous jquery code.
 
